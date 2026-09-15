@@ -2,3 +2,29 @@
 
 /* V4.2 Recruiting */
 .resumeCard{background:#0d131b;border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:32px;display:flex;flex-direction:column;align-items:flex-start;gap:14px}.resumeCard h3{font-size:clamp(28px,4vw,44px);margin:0}.resumeCard p{color:#aeb8c4;margin:0}.resumeBtn{margin-top:8px}.emailLink{color:#fff;font-weight:800;text-decoration:none;border-bottom:2px solid #e3192d;padding-bottom:3px}.resumeCard small{color:#778392}.resumeBenefits{margin-top:24px;color:#fff;font-weight:800;line-height:2}.resumeBenefits i{color:#e3192d;font-style:normal;margin:0 6px}@media(max-width:760px){.resumeCard{padding:24px}.resumeBtn{width:100%;text-align:center}.resumeBenefits{font-size:13px}}
+
+/* V5 responsive image framing */
+:root{--header-h:78px}
+.photoSection{min-height:clamp(560px,47vw,760px);background-size:cover;background-repeat:no-repeat;overflow:hidden}
+/* Keep the full right edge of the fleet/trailer visible on desktop instead of centering and cropping both sides. */
+.fleet{background-position:right center}
+.safety{background-position:right center}
+.careers{background-position:right center}
+.photoCopy{width:min(42vw,620px)}
+@media (min-width:761px) and (max-width:1300px){
+  .photoSection{min-height:620px;padding:5vw}
+  .photoCopy{width:min(47vw,570px)}
+  .photoCopy h2{font-size:clamp(44px,5vw,66px)}
+  .photoSection:before{background:linear-gradient(90deg,rgba(5,9,13,.94) 0%,rgba(5,9,13,.72) 39%,rgba(5,9,13,.16) 67%,rgba(5,9,13,.02) 100%)}
+}
+@media (min-width:1500px){
+  .photoSection{background-size:100% auto;min-height:clamp(650px,56.25vw,900px);background-color:#070b10}
+  .fleet,.safety,.careers{background-position:center center}
+}
+@media(max-width:760px){
+  .photoSection{min-height:620px;background-size:cover}
+  .fleet{background-position:58% center}
+  .safety{background-position:61% center}
+  .careers{background-position:62% center}
+  .photoCopy{width:100%;max-width:100%}
+}
