@@ -1,30 +1,12 @@
-ABZ GLOBAL — DARK PROFESSIONAL WEBSITE
+ABZ GLOBAL Website V4.1 — iPhone/GitHub flat-file version
 
-Designed around the selected Brand Direction #02:
-- dark navy / black interface
-- ABZ red accent
-- KEEP AMERICA MOVING positioning
-- recruiting-first information architecture
-- ABZ Safety / PTI section
-- Netlify-compatible Driver Interest Form
-- responsive mobile layout
-- no invented compensation or recruiting promises
+Upload ALL files directly to the ROOT of the GitHub repository (same level as index.html).
+No assets folder is required.
 
-DEPLOY TO YOUR EXISTING NETLIFY SITE
-1. Unzip this ZIP.
-2. Open your existing site in Netlify.
-3. Open Deploys.
-4. Upload the UNZIPPED folder containing index.html.
-5. Netlify will create a new deploy while keeping your current site address.
+Required image files:
+hero.webp
+fleet.webp
+safety.webp
+careers.webp
 
-BEFORE PUBLIC PROMOTION
-- Add official recruiting phone and email.
-- Add company-approved Privacy Policy.
-- Replace fleet placeholders with real ABZ Global photographs.
-- Add only verified/company-approved pay, home-time, equipment and eligibility claims.
-
-Confirmed public-facing identity used:
-ABZ GLOBAL CORP
-Chicago, Illinois, USA
-
-The full registration address was intentionally NOT placed on the public-facing site.
+Netlify will deploy automatically from main after commit if the repository is connected.
