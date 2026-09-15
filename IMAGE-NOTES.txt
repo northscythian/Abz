@@ -1,0 +1,15 @@
+IMAGE EDIT NOTES
+Mode: built-in image_gen tool. Sources: images from the existing ABZ Global site.
+Four AI-edited illustrative assets, compressed to WebP; small variants are resized copies.
+
+hero.webp / hero-small.webp
+Edit this ABZ Global website image into a clean photographic website asset. Preserve white Freightliner Cascadia HIGH ROOF SLEEPER truck(s), ABZ Global logos on truck bodies, location, lighting and photographic style. Remove ALL advertising overlay text, headlines, buttons, icons, graphic panels, slogans (including slogans on trailers/buildings), and all DOT/MC/legal numbers and license plate text. Reconstruct natural background in those areas. Keep only ABZ GLOBAL branding and Freightliner grille badge as text. Keep entire trucks including wheels, bumper, roof and trailer inside frame with breathing room. Landscape 16:9. No new lettering, no invented legal details.
+
+fleet.webp / fleet-small.webp
+Edit this ABZ Global website image into a clean photographic website asset. Preserve white Freightliner Cascadia HIGH ROOF SLEEPER truck(s), ABZ Global logos on truck bodies, location, lighting and photographic style. Remove ALL advertising overlay text, headlines, buttons, icons, graphic panels, slogans (including slogans on trailers/buildings), and all DOT/MC/legal numbers and license plate text. Reconstruct natural background in those areas. Keep only ABZ GLOBAL branding and Freightliner grille badge as text. Keep entire trucks including wheels, bumper, roof and trailer inside frame with breathing room. Landscape 16:9. No new lettering, no invented legal details.
+
+safety.webp / safety-small.webp
+Edit this ABZ Global website image into a clean photographic website asset. Preserve white Freightliner Cascadia HIGH ROOF SLEEPER truck(s), ABZ Global logos on truck bodies, location, lighting and photographic style. Remove ALL advertising overlay text, headlines, buttons, icons, graphic panels, slogans (including slogans on trailers/buildings), and all DOT/MC/legal numbers and license plate text. Reconstruct natural background in those areas. Keep only ABZ GLOBAL branding and Freightliner grille badge as text. Remove foreground clipboard, mug, gloves and concrete sign; show clean parked truck scene. Keep entire trucks including wheels, bumper, roof and trailer inside frame with breathing room. Landscape 16:9. No new lettering, no invented legal details.
+
+careers.webp / careers-small.webp
+Edit this ABZ Global website image into a clean photographic website asset. Preserve white Freightliner Cascadia HIGH ROOF SLEEPER truck(s), ABZ Global logos on truck bodies, location, lighting and photographic style. Remove ALL advertising overlay text, headlines, buttons, icons, graphic panels, slogans (including slogans on trailers/buildings), and all DOT/MC/legal numbers and license plate text. Reconstruct natural background in those areas. Keep only ABZ GLOBAL branding and Freightliner grille badge as text. Keep entire trucks including wheels, bumper, roof and trailer inside frame with breathing room. Landscape 16:9. No new lettering, no invented legal details.
