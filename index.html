@@ -67,8 +67,25 @@
     <div class="section-copy"><p class="eyebrow">05 / CAREERS</p><h2>DRIVE WITH<br><span>ABZ GLOBAL.</span></h2><p>Looking for your next CDL-A opportunity? Start a conversation with our recruiting team.</p><a class="btn primary" href="mailto:hr@abzglobalhr.com?subject=CDL-A%20Driver%20%E2%80%94%20Resume">EMAIL YOUR RESUME <span aria-hidden="true">↗</span></a></div>
   </section>
   <section id="apply" class="apply"><div class="container apply-grid">
-    <div><p class="eyebrow">YOUR NEXT MILE STARTS HERE</p><h2>NO LONG APPLICATION.<br><span>JUST SEND YOUR RESUME.</span></h2><p>Open your email app, attach your resume and send it to our recruiting team.</p></div>
-    <div class="resume-card"><p class="eyebrow">ABZ GLOBAL RECRUITING</p><h3>READY TO DRIVE?</h3><a class="btn primary" href="mailto:hr@abzglobalhr.com?subject=CDL-A%20Driver%20%E2%80%94%20Resume">SEND YOUR RESUME <span aria-hidden="true">↗</span></a><a class="email" href="mailto:hr@abzglobalhr.com">hr@abzglobalhr.com</a><p class="email-help">Prefer webmail? Copy the address above and attach your resume to a new email.</p></div>
+    <div><p class="eyebrow">YOUR NEXT MILE STARTS HERE</p><h2>NO LONG APPLICATION.<br><span>JUST SEND YOUR RESUME.</span></h2><p>Fill out the short form and attach your resume. No registration, no account, no long process — our recruiting team reads every application and replies within 24 hours.</p></div>
+    <div class="resume-card">
+      <p class="eyebrow">ABZ GLOBAL RECRUITING</p><h3>READY TO DRIVE?</h3>
+      <form class="apply-form" name="driver-application" method="POST" action="/success.html" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="driver-application">
+        <p class="honeypot"><label>Leave this field empty<input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <div class="field"><label for="ap-name">NAME</label><input id="ap-name" name="name" type="text" required autocomplete="name" placeholder="Full name"></div>
+        <div class="field"><label for="ap-phone">PHONE</label><input id="ap-phone" name="phone" type="tel" required autocomplete="tel" placeholder="+1"></div>
+        <div class="field"><label for="ap-email">EMAIL</label><input id="ap-email" name="email" type="email" required autocomplete="email" placeholder="you@email.com"></div>
+        <div class="field"><label for="ap-cdl">LICENSE / EXPERIENCE</label><select id="ap-cdl" name="license"><option value="">Select one</option><option>CDL-A with driving experience</option><option>CDL-A — new driver</option><option>CDL-B</option><option>No CDL yet</option></select></div>
+        <div class="field"><label for="ap-resume">RESUME <span>(PDF, DOC — up to 10 MB)</span></label><input id="ap-resume" name="resume" type="file" accept=".pdf,.doc,.docx,.rtf"></div>
+        <div class="field"><label for="ap-note">MESSAGE <span>(optional)</span></label><textarea id="ap-note" name="message" rows="3" placeholder="Route preference, home base, questions"></textarea></div>
+        <button class="btn primary" type="submit">SUBMIT APPLICATION <span aria-hidden="true">↗</span></button>
+      </form>
+      <p class="or-line"><span aria-hidden="true">OR</span></p>
+      <a class="btn primary" href="mailto:hr@abzglobalhr.com?subject=CDL-A%20Driver%20%E2%80%94%20Resume">SEND FROM YOUR MAIL APP <span aria-hidden="true">↗</span></a>
+      <a class="email" href="mailto:hr@abzglobalhr.com">hr@abzglobalhr.com</a>
+      <p class="email-help">Prefer your own email app? Copy the address above, attach your resume and press send. Our recruiting team replies within 24 hours.</p>
+    </div>
   </div></section>
 </main>
 <footer class="container"><div class="footer-top"><a class="logo" href="#home" aria-label="ABZ Global home"><b>ABZ</b><span>GLOBAL</span></a><a class="text-link" href="#home">Back to top ↑</a></div><p class="footer-slogan">KEEP AMERICA MOVING.</p><div class="footer-bottom"><p>ABZ Global Corp · Chicago, Illinois, USA</p><p>© <span id="year">2026</span> ABZ Global Corp. All rights reserved.</p></div></footer>
